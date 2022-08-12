@@ -1,0 +1,28 @@
+@keyframes slide-top {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes display-nav {
+    0% {
+        height: 0;
+      }
+      100% {
+        height: 90vh;
+      }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
